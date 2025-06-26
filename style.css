@@ -1,10 +1,8 @@
-
-/* Geral */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #b8b8b8;
     color: #333;
     line-height: 1.6;
 }
@@ -25,7 +23,7 @@ body {
 }
 
 .button.primary {
-    background-color: #f2ff00;
+    background-color: #ff0000;
     color: #0e0600;
     border: 2px solid #007bff;
 }
@@ -68,7 +66,6 @@ body {
     background-color: #c10000;
 }
 
-/* Header */
 .site-header {
     background-color: #fff;
     padding: 10px 20px;
@@ -86,13 +83,13 @@ body {
 }
 
 .logo img {
-    width: 120px; /* ou qualquer tamanho que fique bom no seu layout */
+    width: 120px;
     height: auto;
 }
 
 .logo {
     font-size: 2em;
-    color: #e4be01;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -109,13 +106,13 @@ body {
 
 .main-nav a {
     text-decoration: none;
-    color: #ffd900;
+    color: #000000;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
 
 .main-nav a:hover {
-    color: #ff8400;
+    color: #ff0000;
 }
 
 .search-bar {
@@ -131,7 +128,7 @@ body {
 }
 
 .search-bar button[type="submit"] {
-    background-color: #f7b500;
+    background-color: #ff0000;
     color: #fff;
     border: none;
     padding: 19px 15px;
@@ -141,7 +138,7 @@ body {
 }
 
 .search-bar button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #000000;
 }
 
 .cart-icon a {
@@ -159,10 +156,9 @@ body {
     margin-right: 5px;
 }
 
-/* Hero Section */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('fundo.png') center/cover no-repeat;
-    color: #fff;
+    color: #000000;
     padding: 100px 0;
     text-align: center;
 }
@@ -175,7 +171,7 @@ body {
 .hero-title {
     font-size: 3em;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: -20px 11px 6px rgba(0, 0, 0, 0.5);
 }
 
 .hero-subtitle {
@@ -184,7 +180,6 @@ body {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* Featured Products */
 .featured-products {
     padding: 50px 0;
     background-color: #fff;
@@ -267,25 +262,21 @@ body {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Footer */
+
 .site-footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #000000;
+    color: #c5c5c5;
     text-align: center;
     padding: 20px 0;
     font-size: 0.9em;
 }
 
-/* Recursos Avançados de CSS */
-
-/* Transições suaves em vários elementos */
 .site-header a,
 .button,
 .product-card {
     transition: all 0.3s ease-in-out;
 }
 
-/* Animação sutil no título da seção de produtos em destaque */
 .featured-products .section-title {
     animation: fadeInUp 0.8s ease-out;
 }
@@ -301,26 +292,22 @@ body {
     }
 }
 
-/* Efeito de gradiente sutil nos cards de produto */
 .product-card {
     background: linear-gradient(135deg, #f9f9f9 0%, #eee 100%);
 }
 
-/* Uso de Flexbox para alinhar itens no header */
 .site-header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Uso de Grid para layout dos produtos em destaque */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
 }
 
-/* Media Queries para Responsividade */
 @media (max-width: 768px) {
     .site-header .container {
         flex-direction: column;

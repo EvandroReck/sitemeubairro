@@ -405,11 +405,27 @@ body {
     }
 }
 
-.place-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.place-list {
+    display: flex;
+    flex-direction: column;
     gap: 30px;
     margin-top: 30px;
+}
+
+.place-card {
+    background-color: #79b56a;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+}
+
+.place-card img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
 }
 
 @media (max-width: 768px) {

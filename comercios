@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao Lajeado 60 - São Pedro </title>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="capanema.png" alt="Logo da Cidade de Capanema-PR">
+                </a>
+            </h1>
+            <h2 class="logo"> São Pedro</h2>
+
+           
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="comercios.html">Comércios</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="sobre.html">Sobre o Bairro</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Procurar por locais na Região...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+   
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Descubra o melhor de São Pedro!</h2>
+                <p class="hero-subtitle">Comércios, cultura e as melhores opções de lazer para você e sua família.</p>
+                <a href="comercios.html" class="button primary">Ver Comércios</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="featured-places">
+  <div class="container">
+    <h2 class="section-title">Locais em Destaque</h2>
+    <div class="place-grid">
+      <div class="place-card">
+        <img src="igrejalocal.png" alt="igreja local">
+        <h3>Igreja de São Pedro</h3>
+        <p>Onde a fé encontra a paz.</p>
+        <a href="" class="location-button" target="_blank">
+          <i class="fas fa-map-marker-alt"></i> Localização
+        </a>
+      </div>
+
+      <div class="place-card">
+        <img src="placasolar.png" alt="Usina de Placa Solar local">
+        <h3>Usina de Placa Solar</h3>
+        <p>Energia limpa e renovável.</p>
+        <a href="" class="location-button" target="_blank">
+          <i class="fas fa-map-marker-alt"></i> Localização
+        </a>
+      </div>
+
+      <div class="place-card">
+        <img src="rioiguacu.png" alt="Rio Iguaçu em São Pedro">
+        <h3>Rio Iguaçu</h3>
+        <p>Águas que banham São Pedro.</p>
+        <a href="" class="location-button" target="_blank">
+          <i class="fas fa-map-marker-alt"></i> Localização
+        </a>
+      </div>
+
+      <div class="place-card">
+        <img src="cemiterio.png" alt="Cemitério De São Pedro">
+        <h3>Cemitério São Pedro</h3>
+        <p>Um lugar muito aconchegante para descansar.</p>
+        <a href="" class="location-button" target="_blank">
+          <i class="fas fa-map-marker-alt"></i> Localização
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 Bairro São Pedro. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
